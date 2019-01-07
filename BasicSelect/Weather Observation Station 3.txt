@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/weather-observation-station-12/problem
+# https://www.hackerrank.com/challenges/weather-observation-station-3/problem
 
 # One Way:
 SELECT DISTINCT CITY FROM STATION WHERE ID % 2 = 0
