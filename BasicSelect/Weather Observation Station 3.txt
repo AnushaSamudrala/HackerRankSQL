@@ -1,3 +1,8 @@
+# https://www.hackerrank.com/challenges/weather-observation-station-12/problem
+
+# One Way:
 SELECT DISTINCT CITY FROM STATION WHERE ID % 2 = 0
-/*Another way:
+
+
+# Another way:
 SELECT DISTINCT CITY FROM STATION WHERE MOD(ID,2) = 0 ORDER BY CITY ASC*/
