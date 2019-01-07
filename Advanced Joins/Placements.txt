@@ -1,0 +1,9 @@
+# https://www.hackerrank.com/challenges/placements/problem
+
+
+SELECT S.NAME FROM STUDENTS AS S 
+JOIN PACKAGES AS P ON P.ID = S.ID 
+JOIN FRIENDS AS F ON F.ID = S.ID
+JOIN PACKAGES AS Ps ON F.FRIEND_ID = Ps.ID
+WHERE P.SALARY < Ps.SALARY ORDER BY Ps.SALARY
+
