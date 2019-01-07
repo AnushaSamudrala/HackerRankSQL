@@ -1,0 +1,7 @@
+# https://www.hackerrank.com/challenges/asian-population/problem
+
+select sum(a.population) 
+from city as a
+join country as b 
+on a.countrycode = b.code
+where continent='Asia'
